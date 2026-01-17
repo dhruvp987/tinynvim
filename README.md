@@ -11,6 +11,7 @@ This config might not provide enough features to justify uninstalling VS Code or
 - Language Server Support
 - Autocompletion/Code Snippets
 - Trouble Viewing (seeing all of your errors/warnings in one window)
+- Fuzzy Finding
 - Light Theme (makes text easier to read)
 
 ## Setup
