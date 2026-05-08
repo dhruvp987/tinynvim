@@ -59,7 +59,7 @@ return {
 				"lua_ls",
 				"jdtls",
 				"pyright",
-				"r_language_server",
+				-- "r_language_server",
 				"rust_analyzer"
 			}
 		},
