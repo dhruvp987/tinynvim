@@ -1,5 +1,10 @@
 return {
-	{ "ellisonleao/gruvbox.nvim", priority = 1000 , config = true, opts = ... },
+	{
+		"jpwol/thorn.nvim",
+		lazy = false,
+		priority = 1000,
+		opts = {}
+	},
 	{
   		"folke/trouble.nvim",
   		opts = {},

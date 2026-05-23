@@ -1,7 +1,7 @@
 require("config.lazy")
 
-vim.o.background = "light"
-vim.cmd([[colorscheme gruvbox]])
+vim.o.background = "dark"
+vim.cmd([[colorscheme thorn]])
 
 require("telescope").load_extension("fzf")
 local builtin = require("telescope.builtin")
