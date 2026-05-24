@@ -1,11 +1,5 @@
 return {
 	{
-		"jpwol/thorn.nvim",
-		lazy = false,
-		priority = 1000,
-		opts = {}
-	},
-	{
   		"folke/trouble.nvim",
   		opts = {},
   		cmd = "Trouble",
@@ -56,6 +50,14 @@ return {
     			},
   		},
 	},
+	"hrsh7th/nvim-cmp",
+	{
+		"jpwol/thorn.nvim",
+		lazy = false,
+		priority = 1000,
+		opts = {}
+	},
+	"lewis6991/gitsigns.nvim",
 	{
 		"mason-org/mason-lspconfig.nvim",
 		opts = {
@@ -73,7 +75,6 @@ return {
 			"neovim/nvim-lspconfig",
 		},
 	},
-	"hrsh7th/nvim-cmp",
 	{ "nvim-mini/mini.icons", version = false },
 	{
 		"nvim-telescope/telescope.nvim", tag = "v0.2.0",
