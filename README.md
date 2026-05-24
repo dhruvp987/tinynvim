@@ -12,6 +12,7 @@ This config might not provide enough features to justify uninstalling VS Code or
 - Autocompletion/Code Snippets
 - Trouble Viewing (seeing all of your errors/warnings in one window)
 - Fuzzy Finding
+- File Explorer
 - Dark Theme ([thorn.nvim](https://github.com/jpwol/thorn.nvim))
 
 ## Setup & Usage

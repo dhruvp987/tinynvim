@@ -74,6 +74,7 @@ return {
 		},
 	},
 	"hrsh7th/nvim-cmp",
+	{ "nvim-mini/mini.icons", version = false },
 	{
 		"nvim-telescope/telescope.nvim", tag = "v0.2.0",
 		dependencies = { "nvim-lua/plenary.nvim" }
@@ -128,5 +129,15 @@ return {
 			fuzzy = { implementation = "prefer_rust_with_warning" }
 		},
 		opts_extend = { "sources.default" }
+	},
+	{
+		"stevearc/oil.nvim",
+		---@module 'oil'
+		---@type oil.SetupOpts
+		opts = {},
+		-- Optional dependencies
+		dependencies = { { "nvim-mini/mini.icons", opts = {} } },
+		-- Lazy loading is not recommended because it is very tricky to make it work correctly in all situations.
+		lazy = false
 	}
 }
