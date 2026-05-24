@@ -9,6 +9,7 @@ This config might not provide enough features to justify uninstalling VS Code or
 
 ## Features
 - Language Server Support
+- Formatting on save and with :Format command
 - Autocompletion/Code Snippets
 - Trouble Viewing (seeing all of your errors/warnings in one window)
 - Fuzzy Finding
@@ -21,11 +22,14 @@ This config might not provide enough features to justify uninstalling VS Code or
 1. Clone this repository into ~/.config/nvim
 2. Start Neovim and run :checkhealth
 3. Fix any issues listed (e.g. install missing programs)
-4. Read configuration files and plugin documentation to learn how to use features
+4. Read configuration files and plugin documentation to finish setup and learn how to use features
 5. Enjoy!
 
 ## Plugins and Configuration
 All of the plugins used is set up using lazy.nvim. Plugins can be viewed under lua/plugins/plugins.lua. Additional configuration can be viewed under init.lua.
+
+### Formatters
+Some formatters have been configured under the conform.nvim plugin. However, you will need to install the formatters manually. View configured formatters with :ConformInfo, then either use Mason (with :Mason) to install them within Neovim, or install them globally.
 
 ## Contribute
 I am open to suggestions! To make a suggestion, just create a new issue in this repository.
