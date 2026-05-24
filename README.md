@@ -15,6 +15,7 @@ This config might not provide enough features to justify uninstalling VS Code or
 - Fuzzy Finding
 - File Explorer
 - Git Buffer Integration
+- Tabs
 - Dark Theme ([thorn.nvim](https://github.com/jpwol/thorn.nvim))
 
 ## Setup & Usage
