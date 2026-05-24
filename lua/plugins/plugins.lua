@@ -50,7 +50,6 @@ return {
     			},
   		},
 	},
-	"hrsh7th/nvim-cmp",
 	{
 		"jpwol/thorn.nvim",
 		lazy = false,
