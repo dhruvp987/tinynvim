@@ -1,11 +1,14 @@
-# A Fast, Tiny Neovim Config
+# Tinynvim
+
+<img width="1918" height="1166" alt="neovim" src="https://github.com/user-attachments/assets/5aad57e7-6ede-470e-99f8-21e7b23bb2b5" />
+
 Neovim, with all the speed, without all the bloat!
 
-I wanted an editor that was fast while staying out of my way. While large editors like VS Code and JetBrains are powerful, they can be clunky and distracting. With Neovim, I was able to include only the features that I need and keep everything else out, allowing me to put my max focus into my work.
+I wanted an editor that was fast yet productive. While large editors like VS Code and JetBrains are powerful, they can be clunky and distracting. With Neovim, I included only the features that I need and kept everything else out, letting me lock in 💪.
 
 This config might not provide enough features to justify uninstalling VS Code or JetBrains, but it should work great 95% of the time.
 
-**DISCLAIMER:** This is my personal config based my personal workflow, so it may not work for many people. It will probably feel barebones.
+**DISCLAIMER:** This is my personal config based my personal workflow, so it may not work for many people. It may feel barebones.
 
 ## Features
 - Language Server Support
