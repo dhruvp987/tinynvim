@@ -2,17 +2,17 @@
 
 <img width="1918" height="1166" alt="neovim" src="https://github.com/user-attachments/assets/5aad57e7-6ede-470e-99f8-21e7b23bb2b5" />
 
-Neovim, with all the speed, without all the bloat!
+The speed and power of IDEs, without the bloat!
 
 I wanted an editor that was fast yet productive. While large editors like VS Code and JetBrains are powerful, they can be clunky and distracting. With Neovim, I included only the features that I need and kept everything else out, letting me lock in 💪.
 
-This config might not provide enough features to justify uninstalling VS Code or JetBrains, but it should work great 95% of the time.
+This config might not provide enough features to justify uninstalling VS Code or JetBrains, but it should work well 90% of the time.
 
 **DISCLAIMER:** This is my personal config based my personal workflow, so it may not work for many people. It may feel barebones.
 
 ## Features
 - Language Server Support
-- Formatting on save and with :Format command
+- Formatting on Save and with :Format Command
 - Autocompletion/Code Snippets
 - Trouble Viewing (seeing all of your errors/warnings in one window)
 - Fuzzy Finding
